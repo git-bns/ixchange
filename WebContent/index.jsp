@@ -7,10 +7,10 @@
 <title>iXchange</title>
 </head>
 <body>
-<button onclick="return popitup('http://localhost:9090/iXchange/startIXchange?memberId=B100&name=Baidya&sex=Male')">BNS</button> <br />
-<button onclick="return popitup('http://localhost:9090/iXchange/startIXchange?memberId=C110&name=Sunny&sex=Female')">Sunny</button> <br />
-<button onclick="return popitup('http://localhost:9090/iXchange/startIXchange?memberId=X22&name=Ravi&sex=Male')">Ravi</button> <br />
-<button onclick="return popitup('http://localhost:9090/iXchange/startIXchange?memberId=E222&name=Hari&sex=Male')">Hari</button> <br />
+<button onclick="return popitup('http://localhost:9090/ixchange/startIXchange?memberId=B100&name=Baidya&sex=Male')">BNS</button> <br />
+<button onclick="return popitup('http://localhost:9090/ixchange/startIXchange?memberId=C110&name=Sunny&sex=Female')">Sunny</button> <br />
+<button onclick="return popitup('http://localhost:9090/ixchange/startIXchange?memberId=X22&name=Ravi&sex=Male')">Ravi</button> <br />
+<button onclick="return popitup('http://localhost:9090/ixchange/startIXchange?memberId=E222&name=Hari&sex=Male')">Hari</button> <br />
 <script language="javascript" type="text/javascript">
 function popitup(url) {
 	window.open(url, url+'name', 'directories=0,titlebar=0,toolbar=0,location=0,status=0,menubar=0,scrollbars=yes,resizabe=no,copyhistory=no,height=660,width=650').focus();
